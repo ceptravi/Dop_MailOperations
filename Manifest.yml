@@ -4,7 +4,7 @@ metadata:
    name: kube-deploy
 spec:
    containers:
-   - name: dop_mailoperations-container02
+   - name: dop-mailoperations-container02
      image: ceptravi/dop_mailoperations:latest
      ports:
      - containerPort: 6379
