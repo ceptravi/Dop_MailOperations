@@ -4,7 +4,7 @@ metadata:
    name: kube-deploy
 spec:
    containers:
-   - name: kube-deploy-container01
+   - name: kube-deploy-container02
      image: ceptravi/kube-deploy:latest
      ports:
      - containerPort: 6379
