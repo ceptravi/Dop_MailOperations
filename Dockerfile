@@ -1,4 +1,4 @@
-# Use existing docker image as a base.
+# Use existing docker image as a base..
 FROM alpine
 
 # Download and install dependency.
