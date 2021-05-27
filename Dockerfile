@@ -1,7 +1,7 @@
-# Use existing docker image as a base
+# Use existing docker image as a base.
 FROM alpine
 
-# Download and install dependency
+# Download and install dependency.
 RUN apk add --update redis
 
 # EXPOSE the port to the Host OS
